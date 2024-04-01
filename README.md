@@ -5,6 +5,19 @@ It iterates over the list of keywords retrieved from the input CSV file and send
 
 The retrieved forum results are then written into a new CSV file.
 
+
+**Example**
+![Laptop SERP](example.png)
+
+
+For this search item, we would import this keyword: "Best laptops for graphic design", and get 3 rows with each discussion result in its own csv row:
+- keyword, title, link, date (if any but usually not), source (aka domain)
+- *Best laptops for graphic design, What are some good laptops for ... - Reddit, https://www.reddit.com/r/graphic_design/..., Reddit.com*
+- *Best laptops for graphic design, Laptop for Graphic Designers?, https://www.graphicdesignforum.com/t ... , https://www.graphicdesignforum.com/*
+- *Best laptops for graphic design, What laptop do you use for work? ... - Reddit, https://www.reddit.com/r/graphic_design/ ..., Reddit.com*
+
+
+
 **Libraries:**
 Serp API, CSV
 
